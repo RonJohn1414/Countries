@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Countries</string>
     <string name="error_text">An error occurred while loading Data</string>
+    <string name="countrySymbol">Country Symbol</string>
+    <string name="country_tv">Country</string>
+    <string name="capital_tv">Capital</string>
 </resources>

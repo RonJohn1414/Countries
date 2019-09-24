@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             adapter = countriesAdapter
         }
 
-         swipeRefreshLayout.setOnRefreshListener {
+        swipeRefreshLayout.setOnRefreshListener{
             swipeRefreshLayout.isRefreshing = false
             viewModel.refresh()
         }
